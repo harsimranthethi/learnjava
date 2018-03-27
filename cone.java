@@ -10,7 +10,7 @@ public class cone {
 
       if (v>300)
       {
-         System.out.println("It's a HUGE cone");
+         System.out.println("It's a HUGE cone!!");
       } else
       {
         System.out.println("It's a Small cone");
