@@ -19,8 +19,16 @@ class itriangle{
     if(Double.isNaN(area) || area == 0) {
       System.out.println( "i dont think this is a triangle");
 
-    } else {
+    } else { //it is a triangle
       System.out.println( "i am sure "+ area + " is the area of triangle ");
+
+      if(area>100) {
+        System.out.println("its a big triangle");
+      } else {
+        System.out.println("its a small triangle");
+      }
+
+      if(area>1000){ System.out.println("Actually it is pretty big");}
 
     }
 
